@@ -1,4 +1,4 @@
-package sort;
+package io.github.lovehq.sort;
 
 public class InsertionSort<T extends Comparable<T>> implements Sort<T>{
 

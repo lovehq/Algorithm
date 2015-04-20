@@ -1,6 +1,6 @@
-package sort;
+package io.github.lovehq.sort;
 
-import common.CommonUtils;
+import io.github.lovehq.common.Utils;
 
 public class BubbleSort<T extends Comparable<T>> implements Sort<T> {
 
@@ -8,7 +8,7 @@ public class BubbleSort<T extends Comparable<T>> implements Sort<T> {
 		for(int i = 0; i < data.length; i++){
 			for(int j = data.length - 1; j > i; j--){
 				if(data[j - 1].compareTo(data[j]) > 0){
-					CommonUtils.swap(data, j-1, j);
+					Utils.swap(data, j - 1, j);
 				}
 			}
 		}
