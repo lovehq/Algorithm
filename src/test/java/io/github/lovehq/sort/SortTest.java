@@ -2,7 +2,6 @@ package io.github.lovehq.sort;
 
 import org.junit.Before;
 import org.junit.Test;
-import io.github.lovehq.sort.Sort;
 
 import java.util.Random;
 

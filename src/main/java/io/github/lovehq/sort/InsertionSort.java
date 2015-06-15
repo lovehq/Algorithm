@@ -1,8 +1,8 @@
 package io.github.lovehq.sort;
 
-public class InsertionSort<T extends Comparable<T>> implements Sort<T>{
+public class InsertionSort implements Sort{
 
-	public void sort(T[] data) {
+	public <T extends Comparable<? super T>> void sort(T[] data) {
 		if(data == null || data.length <= 1){
 			return;
 		}
